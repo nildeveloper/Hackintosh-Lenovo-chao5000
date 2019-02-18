@@ -195,7 +195,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 keepsyms=1</string>
+		<string>dart=0 keepsyms=1</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>NeverDoRecovery</key>
@@ -219,8 +219,8 @@
 				</data>
 				<key>framebuffer-con1-alldata</key>
 				<data>
-				AQUKAAAIAACHAQAAAgQKAAAAgAAIcBAAD/AAAAAQAAAA
-				IAAAAA==
+				AQUKAAAIAACHAQAAAgQKAAAACAAAhwEAAP8AAAABAAAA
+				ACAAAAA=
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<integer>1</integer>
