@@ -1,1 +1,0 @@
-kextutil -v AppleIntelWiFi.kext
