@@ -195,13 +195,15 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 keepsyms=1 lilucpu=8</string>
+		<string>dart=0 keepsyms=1 lilucpu=8 igfxonln=1</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverDoRecovery</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>10</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -210,9 +212,13 @@
 			<key>PciRoot(0)/Pci(0x02,0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWGQ==</data>
+				<data>
+				AAAWGQ==
+				</data>
 				<key>device-id</key>
-				<data>FhkAAA==</data>
+				<data>
+				FhkAAA==
+				</data>
 				<key>framebuffer-con1-alldata</key>
 				<data>
 				AQUKAAAIAACHAQAAAgQKAAAIAACHAQAA/wAAAAEAAAAg
@@ -260,7 +266,6 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
-			<string>Recovery</string>
 			<string>FileVault</string>
 			<string>WINDOWS</string>
 			<string>Sofeware</string>
